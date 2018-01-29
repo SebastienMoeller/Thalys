@@ -20,10 +20,11 @@ browser.get(page)
 #%%
 link = browser.find_element_by_name('div.rt-el-trains-main btn btn-lg btn-secondary selectorLaterTrains')
 #%%
+link = browser.find_element_by_xpath('[@id="OutboundTrainSelectionZone"]')
 #<div class="rt-el-trains-main btn btn-lg btn-secondary selectorLaterTrains">Later trains <span class="icon-ico-arrow-light-down2"></span></div>
 
 #%%
-
+link.click()
 
 
 #%%
